@@ -38,9 +38,14 @@ namespace InheritanceDemoApp
             //emp2.DisplayAllEmpployeeDetails();
             //emp3.DisplayAllEmpployeeDetails();
             
-            OnlyAdd onlyAdd = new OnlyAdd();    
-            int ans=onlyAdd.Subtract(1, 2);
-            Console.WriteLine(ans);
+            //OnlyAdd onlyAdd = new OnlyAdd();    
+            //int ans=onlyAdd.Subtract(1, 2);
+            //Console.WriteLine(ans);
+
+
+            PharmaceuticalProduct product = new PharmaceuticalProduct();
+           
+            
 
 
             Console.Read();
