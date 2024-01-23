@@ -26,18 +26,23 @@ namespace InheritanceDemoApp
             //Console.WriteLine("---------------------");
 
 
-            SeniorEmployee employee = new SeniorEmployee(12, "Akshada", "Pune", DateTime.Today);
+            //SeniorEmployee employee = new SeniorEmployee(12, "Akshada", "Pune", DateTime.Today);
             
-            Console.WriteLine("Printing back...");
-            //Console.WriteLine(employee.Empid);
+            //Console.WriteLine("Printing back...");
+            ////Console.WriteLine(employee.Empid);
             //Console.WriteLine(employee.Ename);
             //Console.WriteLine(employee.City);
             //Console.WriteLine(employee.JoiningDate);
-            employee.DisplayAllEmpployeeDetails();
+            //employee.DisplayAllEmpployeeDetails();
             //emp1.DisplayAllEmpployeeDetails();
             //emp2.DisplayAllEmpployeeDetails();
             //emp3.DisplayAllEmpployeeDetails();
             
+            OnlyAdd onlyAdd = new OnlyAdd();    
+            int ans=onlyAdd.Subtract(1, 2);
+            Console.WriteLine(ans);
+
+
             Console.Read();
         }
     }
